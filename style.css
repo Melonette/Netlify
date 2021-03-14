@@ -1,0 +1,38 @@
+.pancakes{
+    width: 200px;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce; 
+    animation-duration: 10s; 
+}
+
+.salade{
+    width: 200px;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation:tada;
+    animation-duration:5s;
+}
+
+.couscous{
+    width: 200px;
+    margin: 0 0.5rem;
+    animation:heartbeat;
+    animation-duration: 8s;
+}
+
+.sushi{
+    width: 200px;
+    margin: 0 0.5rem;
+    animation:flip;
+    animation-duration: 8s;
+}
+
+.divs{
+    --animate-delay: 10s;
+}
+
+
+p{
+    font-weight: bold;
+}
